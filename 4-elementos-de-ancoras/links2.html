@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de Âncoras</title>
+    <style>
+        a {
+            color: blue;
+            text-decoration: none; /* remove o sublinhado padrão */
+        }
+
+        a:hover {
+            color: red;
+            text-decoration: underline; /* adiciona sublinhado ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navegação dentro do mesmo arquivo -->
+    <a href="#section2">Ir para a Seção 2</a><br>
+
+    <!-- ... conteúdo ... -->
+    <h2 id="section2">Seção 2</h2>
+    <p>Conteúdo da seção 2.</p>
+    <!-- ... fim conteúdo ... -->
+    
+    <!-- Navegação entre arquivos -->
+    <!-- Caminho relativo -->
+    <a href="links.html">Ir para a Links 1</a><br>
+    <!-- Caminho absoluto -->
+    <a href="/1-elementos-da-linguagem/index.html">Ir para a página principal</a><br>
+
+    <!-- Navegação para páginas externas -->
+    <a href="https://www.google.com">Visite o Google</a><br>
+
+    <!-- Download de arquivos -->
+    <a href="arquivo.pdf" download>Download do Arquivo PDF</a><br>
+
+
+</body>
+</html>

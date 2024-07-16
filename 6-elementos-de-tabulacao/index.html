@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6 - Elementos de Tabulação</title>
+</head>
+<body>
+    <h2>Tabela simples formatada</h2>
+    <table border="1">
+        <tr>
+            <th bgcolor="lightblue">Nome</th>
+            <th bgcolor="lightgreen">Idade</th>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>30</td>
+        </tr>
+        <!-- linhas mescladas (colspan) -->
+        <tr>
+            <td colspan="2">Linhas mescladas</td>
+        </tr>
+
+        <!-- Colunas mescladas (rowspan) -->
+        <tr>
+            <td rowspan="2">Linha 1 e 2</td>
+            <td>Linha 1, Coluna 2</td>
+        </tr>
+        <tr>
+            <td>Linha 2, Coluna 2</td>
+        </tr>
+    </table>
+
+    <h2>Tabelas encadeadas</h2>
+    <table border="1">
+        <tr>
+            <td>
+                <!-- Tabela dentro de outra tabela -->
+                <table border="1">
+                    <tr>
+                        <td>Subitem 1</td>
+                        <td>Subitem 2</td>
+                    </tr>
+                    <tr>
+                        <td>Subitem 3</td>
+                        <td>Subitem 4</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Item principal</td>
+        </tr>
+    </table>
+</body>
+</html>
